@@ -1,3 +1,18 @@
+One of the MVP I built was a tax document extractor. Here's the high-level product pitch:
+
+* Wulters Kluwer is a CPA tax software
+* Their PDF extraction software is very expensive (> 10k AVC) and terrible
+* They are using LLMs
+* The UX and quality bar is low
+* Let's build a replacement and get bought by Wulters Kluwer
+
+However: I realized I didn't want to work with accountants anymore and stopped working on it.
+
+Here's all the source code :)
+
+---
+
+
 Current workflow
 
 Accountant receive a PDF drop from a bunch of different brokerages and:
