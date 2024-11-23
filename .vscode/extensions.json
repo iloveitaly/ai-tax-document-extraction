@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "Prisma.prisma",
+    "ms-python.python",
+    "ms-python.isort",
+    "ms-python.vscode-pylance",
+    "ms-azuretools.vscode-docker",
+    "dbaeumer.vscode-eslint",
+    "GitHub.vscode-pull-request-github",
+    "Gruntfuggly.todo-tree",
+    "tamasfe.even-better-toml",
+    "meganrogge.template-string-converter",
+    "formulahendry.auto-rename-tag",
+    "mikoz.autoflake-extension",
+    "samuelcolvin.jinjahtml"
+  ],
+  "unwantedRecommendations": ["firsttris.vscode-jest-runner"]
+}

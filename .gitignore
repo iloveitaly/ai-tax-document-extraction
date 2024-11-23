@@ -1,0 +1,9 @@
+.venv
+.pytest_cache
+
+/output
+/openai.log
+/tmp
+
+/user_data.json
+/.env.local

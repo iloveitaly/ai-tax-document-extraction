@@ -1,0 +1,40 @@
+# Rules
+
+Follow these rules to extract and format the data from the image and included document text.
+
+{% for rule in rules -%}
+- {{ rule }}
+{% endfor %}
+- Only return JSON without markdown block.
+- Ensure JSON contains all of the fields listed below, even if the value is `null`.
+- JSON keys are contained in backticks.
+- Use `null` if no values can be found.
+- Numbers should not include any formatting outside of a period for decimals.
+- Format any floats as a string
+- Zip codes could be 5 or 9 digits. Separate with a "-" if 9 digits.
+- Format year as a string in format YYYY
+- Format full SSN number using [[Recipient Data]], even if a redacted version is present in the image.
+- Treat US territories as states. For example, "Washington, DC" has a city of "Washington" and a state of "DC".
+- Account numbers are alphanumeric strings without spaces
+
+# Field List
+
+Extract the following field from the image:
+
+{% for field in fields -%}
+- {{ field }}
+{% endfor %}
+- Notes. If there is any important information that is *not* included in the above instructions, include a markdown
+formatted notes of possible missing information. Use `null` if nothing important is omitted. `notes`.
+
+# Recipient Data
+
+{{ recipient_data }}
+
+# Tax Document Text
+
+Here is some of text contained in the included image.
+
+```
+{{ image_text }}
+```

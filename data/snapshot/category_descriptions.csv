@@ -1,0 +1,39 @@
+category,sub-category,description
+unknown,,Only use this category when none of the others apply
+instructions,,Recipient instructions or cover letter containing no personal tax or box information
+,,
+1099-DIV,unknown,None of the other categories apply
+1099-DIV,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+,,
+1099-INT,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-INT,unknown,"None of the other categories apply, but this is part of a 1099-INT package"
+1099-INT,transaction list,A list of transactions executed or managed by the brokerage
+,,
+1099-B,unknown,None of the other categories apply
+1099-B,summary,Summary of the tax impact of the document
+1099-B,transaction list,A list of transactions executed or managed by the brokerage
+1099-B,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+,,
+consolidated,document,"Recipient tax information for one or more types (1099-INT, 1099-DIV, 1099-B, etc). Not a summary."
+consolidated,transaction list,A list of transactions executed or managed by the brokerage
+consolidated,unknown,None of the other categories apply
+,,
+1099-OID,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+,,
+1099-A,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-C,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-CAP,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-G,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-H,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-K,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-LTC,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-MISC,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-NEC,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-OID,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-PATR,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-Q,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-R,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-SA,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-SB,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-SSA,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
+1099-T,document,"Personal tax information including payer, recipient, and amount. Must contain all box numbers for the tax document. Not a summary."
